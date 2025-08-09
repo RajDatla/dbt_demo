@@ -1,0 +1,7 @@
+version: 2
+sources:
+  - name: demo1
+    database: demo1  # Specifies the database
+    schema: dbo
+    tables:
+    - name: emp1
