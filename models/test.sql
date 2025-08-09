@@ -1,1 +1,1 @@
-select * from {{ source('demo1','emp1')}} 
+select {{ function1('2024-08-09 17:15:00') }} as time,* from {{ source('demo1','emp1')}}
